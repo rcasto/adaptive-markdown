@@ -1,7 +1,3 @@
-var tokenTypes = {
-    paragraph: 'paragraph'
-};
-
 function debounce(func, debounceTimeoutInMs) {
     var timeoutId = null;
     var that = this;
@@ -19,7 +15,6 @@ function debounce(func, debounceTimeoutInMs) {
 
 function processTokens(tokens) {
     console.log(tokens);
-    // tokens.forEach(token => console.log(token));
 }
 
 function stoppedTyping(textArea) {

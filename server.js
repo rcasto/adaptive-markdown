@@ -1,7 +1,7 @@
 var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
-var adaptiveParser = require('./adaptiveParser');
+var adaptiveParser = require('./lib/adaptiveParser');
 var marked = require('marked');
 
 var markedLexer = new marked.Lexer(); // use the default lexer
