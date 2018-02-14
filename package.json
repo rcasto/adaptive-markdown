@@ -1,0 +1,17 @@
+{
+  "name": "AdaptiveMarkdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adaptivecards": "^1.0.0-beta11",
+    "express": "^4.16.2",
+    "tokenize-markdown": "^0.2.1"
+  }
+}
