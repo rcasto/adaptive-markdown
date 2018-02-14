@@ -1,5 +1,5 @@
 {
-  "name": "AdaptiveMarkdown",
+  "name": "adaptive-markdown",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "adaptivecards": "^1.0.0-beta11",
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "tokenize-markdown": "^0.2.1"
+    "marked": "^0.3.12"
   }
 }
