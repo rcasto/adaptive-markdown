@@ -20,6 +20,7 @@ app.post('/api/markdown', (req, res) => {
     var text = req.body;
     var tokens = markedLexer.lex(text);
     res.json(adaptiveParser.parse(tokens));
+    console.log('\n');
 });
 
 app.listen(port, () => console.log(`Server started on port ${port}`));
