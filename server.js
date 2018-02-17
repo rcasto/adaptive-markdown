@@ -1,10 +1,8 @@
 var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
-var adaptiveParser = require('./lib/adaptiveParser');
-var marked = require('marked');
+var adaptiveMarkdown = require('./lib/adaptiveMarkdown');
 
-var markedLexer = new marked.Lexer(); // use the default lexer
 var app = express();
 var port = process.env.PORT || 3000;
 
@@ -18,8 +16,7 @@ app.get('/', (req, res) => {
 // need to sanitize input from user
 app.post('/api/markdown', (req, res) => {
     var text = req.body;
-    var tokens = markedLexer.lex(text);
-    res.json(adaptiveParser.parse(tokens));
+    res.json(adaptiveMarkdown.transformString(text));
     console.log('\n');
 });
 
