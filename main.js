@@ -1,3 +1,3 @@
 var adaptiveMarkdown = require('./lib/adaptiveMarkdown');
 
-adaptiveMarkdown.transformFile('./test-data/list-with-images.md');
+adaptiveMarkdown.transformFile('./test-data/font-bold.md');

@@ -1,0 +1,24 @@
+{
+        "type": "AdaptiveCard",
+        "body": [
+                {
+                        "type": "TextBlock",
+                        "text": "Howdy",
+                        "wrap": true,
+                        "size": "large",
+                        "weight": "bolder"
+                },
+                {
+                        "type": "Container",
+                        "items": [
+                                {
+                                        "type": "TextBlock",
+                                        "text": "I am **testing** some stuff out _you know_\nThere is this great website call [Google](https://google.com)",
+                                        "wrap": true
+                                }
+                        ]
+                }
+        ],
+        "actions": [],
+        "version": "1.0"
+}
