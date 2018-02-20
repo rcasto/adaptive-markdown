@@ -1,0 +1,47 @@
+{
+        "type": "AdaptiveCard",
+        "body": [
+                {
+                        "type": "Container",
+                        "items": [
+                                {
+                                        "type": "TextBlock",
+                                        "text": "Today we are testing out lists and all their power",
+                                        "wrap": true
+                                }
+                        ]
+                },
+                {
+                        "type": "Container",
+                        "items": [
+                                {
+                                        "type": "TextBlock",
+                                        "text": "- Here is a list\nthen an images appears  then some text happens afterwards",
+                                        "wrap": true
+                                },
+                                {
+                                        "type": "Image",
+                                        "url": "http://i0.kym-cdn.com/entries/icons/mobile/000/005/608/nyan-cat-01-625x450.jpg",
+                                        "altText": "You should read"
+                                },
+                                {
+                                        "type": "TextBlock",
+                                        "text": "- Then something is nested\r\t- A nested entry\nmore text and indentation then  Then I continue with text\r\t- Second sub step",
+                                        "wrap": true
+                                },
+                                {
+                                        "type": "Image",
+                                        "url": "https://media1.popsugar-assets.com/files/thumbor/EYb5dO2AAuFKts5Vj6o8wUPLV_E/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/08/08/878/n/1922507/caef16ec354ca23b_thumb_temp_cover_file32304521407524949/i/Funny-Cat-GIFs.jpg",
+                                        "altText": "An image"
+                                },
+                                {
+                                        "type": "Image",
+                                        "url": "http://i0.kym-cdn.com/entries/icons/mobile/000/005/608/nyan-cat-01-625x450.jpg",
+                                        "altText": "That link again, only item in step"
+                                }
+                        ]
+                }
+        ],
+        "actions": [],
+        "version": "1.0"
+}
