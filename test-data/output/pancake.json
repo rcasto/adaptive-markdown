@@ -1,0 +1,93 @@
+{
+        "type": "AdaptiveCard",
+        "body": [
+                {
+                        "type": "TextBlock",
+                        "text": "Pancake Recipe",
+                        "wrap": true,
+                        "size": "extraLarge",
+                        "weight": "bolder"
+                },
+                {
+                        "type": "Container",
+                        "items": [
+                                {
+                                        "type": "TextBlock",
+                                        "text": "**Prep**: 5 minutes\n**Cook**: 15 minutes\n**Ready In**: 20 minutes",
+                                        "wrap": true
+                                }
+                        ]
+                },
+                {
+                        "type": "TextBlock",
+                        "text": "Ingredients",
+                        "wrap": true,
+                        "size": "large",
+                        "weight": "bolder"
+                },
+                {
+                        "type": "Container",
+                        "items": [
+                                {
+                                        "type": "TextBlock",
+                                        "text": "- 1 1/2 cups all-purpose flour",
+                                        "wrap": true
+                                },
+                                {
+                                        "type": "TextBlock",
+                                        "text": "- 3 1/2 teaspoons baking-powder",
+                                        "wrap": true
+                                },
+                                {
+                                        "type": "TextBlock",
+                                        "text": "- 1 teaspoon salt",
+                                        "wrap": true
+                                },
+                                {
+                                        "type": "TextBlock",
+                                        "text": "- 1 tablespoon white sugar",
+                                        "wrap": true
+                                },
+                                {
+                                        "type": "TextBlock",
+                                        "text": "- 1 1/4 cups milk",
+                                        "wrap": true
+                                },
+                                {
+                                        "type": "TextBlock",
+                                        "text": "- 1 egg",
+                                        "wrap": true
+                                },
+                                {
+                                        "type": "TextBlock",
+                                        "text": "- 3 tablespoons butter, melted",
+                                        "wrap": true
+                                }
+                        ]
+                },
+                {
+                        "type": "TextBlock",
+                        "text": "Directions",
+                        "wrap": true,
+                        "size": "large",
+                        "weight": "bolder"
+                },
+                {
+                        "type": "Container",
+                        "items": [
+                                {
+                                        "type": "TextBlock",
+                                        "text": "1. In a large bowl, sift together the flour, baking powder, salt, and sugar.  Make a well in thecenter and pour in the milk, egg, and melted butter; mix until smooth.",
+                                        "wrap": true
+                                },
+                                {
+                                        "type": "TextBlock",
+                                        "text": "2. Heat a lightly oiled griddle or frying pan over medium high heat.  Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.  Brown on both sides and server hot.",
+                                        "wrap": true
+                                }
+                        ]
+                }
+        ],
+        "actions": [],
+        "version": "1.0"
+}
