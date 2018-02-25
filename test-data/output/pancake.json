@@ -13,8 +13,20 @@
                         "items": [
                                 {
                                         "type": "TextBlock",
-                                        "text": "**Prep**: 5 minutes\n**Cook**: 15 minutes\n**Ready In**: 20 minutes",
+                                        "text": "**Prep**: 5 minutes",
                                         "wrap": true
+                                },
+                                {
+                                        "type": "TextBlock",
+                                        "text": "**Cook**: 15 minutes",
+                                        "wrap": true,
+                                        "spacing": "none"
+                                },
+                                {
+                                        "type": "TextBlock",
+                                        "text": "**Ready In**: 20 minutes",
+                                        "wrap": true,
+                                        "spacing": "none"
                                 }
                         ]
                 },
@@ -84,6 +96,29 @@
                                         "type": "TextBlock",
                                         "text": "2. Heat a lightly oiled griddle or frying pan over medium high heat.  Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.  Brown on both sides and server hot.",
                                         "wrap": true
+                                }
+                        ]
+                },
+                {
+                        "type": "TextBlock",
+                        "text": "Notes",
+                        "wrap": true,
+                        "size": "large",
+                        "weight": "bolder"
+                },
+                {
+                        "type": "Container",
+                        "items": [
+                                {
+                                        "type": "TextBlock",
+                                        "text": "The original recipe can be fount at:",
+                                        "wrap": true
+                                },
+                                {
+                                        "type": "TextBlock",
+                                        "text": "[http://allrecipes.com/recipe/21014/good-old-fashioned-pancakes/](http://allrecipes.com/recipe/21014/good-old-fashioned-pancakes/)",
+                                        "wrap": true,
+                                        "spacing": "none"
                                 }
                         ]
                 }
