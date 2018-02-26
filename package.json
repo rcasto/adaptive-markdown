@@ -2,10 +2,8 @@
   "name": "adaptive-markdown",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "main": "./lib/adaptiveMarkdown",
+  "scripts": {},
   "keywords": [],
   "author": "Richie Casto",
   "license": "ISC",
